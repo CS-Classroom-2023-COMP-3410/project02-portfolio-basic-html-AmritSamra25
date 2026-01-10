@@ -1,0 +1,56 @@
+<!--
+  contact.html
+  Contact page using mailto (opens user's email client).
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Contact Amrit Samra via email form.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amrit Samra | Contact</title>
+</head>
+
+<body bgcolor="#0F2E1B" text="#FFFFFF" link="#FFD700" vlink="#9BE7FF" alink="#FF6B6B">
+  <header>
+    <h1>Contact</h1>
+
+    <nav aria-label="Main navigation">
+      <p>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="broncos.html">Broncos Games</a> |
+        <a href="nuggets.html">Nuggets Games</a> |
+        <a href="contact.html">Contact</a>
+      </p>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <p>
+      This form uses <strong>mailto</strong>. Clicking submit opens your email app with the message filled in.
+    </p>
+
+    <form action="mailto:amrit@example.com" method="post" enctype="text/plain">
+      <fieldset>
+        <legend>Contact Form</legend>
+
+        <p>
+          <label for="name">Name:</label><br>
+          <input id="name" type="text" name="Name" size="40" required>
+        </p>
+
+        <p>
+          <label for="email">Email:</label><br>
+          <input id="email" type="email" name="Email" size="40" required>
+        </p>
+
+        <p>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="Message" rows="7" cols="50" required></textarea>
+        </p>
+
+        <p>
+          <input type="submit" value="Open Email Client">
+          <inpu
