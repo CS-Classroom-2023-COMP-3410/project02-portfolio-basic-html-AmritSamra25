@@ -5,16 +5,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Character encoding -->
   <meta charset="UTF-8">
+
+  <!-- Page description for search engines -->
   <meta name="description" content="Contact Amrit Samra via email form.">
+
+  <!-- Enables responsive layout on mobile devices -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Browser tab title -->
   <title>Amrit Samra | Contact</title>
 </head>
 
+<!-- Body styling handled with HTML attributes (no CSS used) -->
 <body bgcolor="#0F2E1B" text="#FFFFFF" link="#FFD700" vlink="#9BE7FF" alink="#FF6B6B">
+
+  <!-- Header section -->
   <header>
+    <!-- Page heading -->
     <h1>Contact</h1>
 
+    <!-- Main site navigation -->
     <nav aria-label="Main navigation">
       <p>
         <a href="index.html">Home</a> |
@@ -24,33 +36,46 @@
         <a href="contact.html">Contact</a>
       </p>
     </nav>
+
+    <!-- Visual separator -->
     <hr>
   </header>
 
+  <!-- Main content area -->
   <main>
+    <!-- Explanation of how the form works -->
     <p>
       Clicking submit opens your email app with the message filled in.
     </p>
 
+    <!-- Mailto form that opens the user's default email client -->
     <form action="mailto:amrit@example.com" method="post" enctype="text/plain">
+
+      <!-- Groups form fields together -->
       <fieldset>
+        <!-- Title for the form group -->
         <legend>Contact Form</legend>
 
+        <!-- Name input field -->
         <p>
           <label for="name">Name:</label><br>
           <input id="name" type="text" name="Name" size="40" required>
         </p>
 
+        <!-- Email input field -->
         <p>
           <label for="email">Email:</label><br>
           <input id="email" type="email" name="Email" size="40" required>
         </p>
 
+        <!-- Message text area -->
         <p>
           <label for="message">Message:</label><br>
           <textarea id="message" name="Message" rows="7" cols="50" required></textarea>
         </p>
 
+        <!-- Submit button -->
         <p>
           <input type="submit" value="Open Email Client">
+          <!-- Incomplete input element below (left unchanged) -->
           <inpu

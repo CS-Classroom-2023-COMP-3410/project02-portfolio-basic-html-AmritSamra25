@@ -1,22 +1,36 @@
 <!--
-  index.html
-  Home page for Amrit Samra's HTML-only portfolio.
-  No CSS. No JS. Just HTML doing its job.
+  nuggets.html
+  nuggets page for Amrit Samra's HTML-only portfolio.
+  
 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Character encoding -->
   <meta charset="UTF-8">
+
+  <!-- Page description for search engines -->
   <meta name="description" content="Amrit Samra personal portfolio website built with HTML only.">
+
+  <!-- Ensures proper scaling on mobile devices -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Page title shown in browser tab -->
   <title>Amrit Samra | Home</title>
 </head>
 
+<!-- Body uses old-school HTML attributes instead of CSS -->
 <body bgcolor="#0B1F3B" text="#FFFFFF" link="#FFD700" vlink="#C0C0C0" alink="#00FFFF">
+
+  <!-- Site header with name and navigation -->
   <header>
+    <!-- Main site heading -->
     <h1>Amrit Samra</h1>
+
+    <!-- Short personal identifier -->
     <p>Denver, Colorado • Broncos & Nuggets fan</p>
 
+    <!-- Navigation bar -->
     <nav aria-label="Main navigation">
       <p>
         <a href="index.html">Home</a> |
@@ -26,26 +40,33 @@
         <a href="contact.html">Contact</a>
       </p>
     </nav>
+
+    <!-- Visual separator -->
     <hr>
   </header>
 
+  <!-- Main content area -->
   <main>
+    <!-- Welcome section -->
     <h2>Welcome</h2>
+
     <p>
       This is my personal portfolio built using <strong>only HTML</strong>.
       No CSS, no JavaScript — just structure.
     </p>
 
+    <!-- Fun personal note -->
     <p>
       Fun fact: the <strong>Broncos</strong> and <strong>Nuggets</strong> have never lost a game when I went in person.
     </p>
 
-    <!-- Image #1 -->
+    <!-- Image #1: Denver skyline -->
     <figure>
       <img src="assets/360_F_1365659773_GIa89M0yozVUZmGU0DUCBBXH8JdHOeoq.jpg" alt="Denver skyline" width="600">
       <figcaption>Home base: Denver.</figcaption>
     </figure>
 
+    <!-- Quick navigation links -->
     <h3>Quick Links</h3>
     <ul>
       <li><a href="about.html">About Me</a></li>
@@ -54,18 +75,24 @@
       <li><a href="contact.html">Contact form</a></li>
     </ul>
 
+    <!-- Table showing undefeated in-person record -->
     <h3>In-Person Record (from the games listed on this site)</h3>
     <table border="1" cellpadding="8" bgcolor="#102A52">
+      <!-- Table header row -->
       <tr bgcolor="#173A6B">
         <th scope="col">Team</th>
         <th scope="col">Games Listed</th>
         <th scope="col">Losses</th>
       </tr>
+
+      <!-- Broncos row -->
       <tr>
         <td>Broncos</td>
         <td>4</td>
         <td>0</td>
       </tr>
+
+      <!-- Nuggets row -->
       <tr>
         <td>Nuggets</td>
         <td>4</td>
@@ -73,6 +100,7 @@
       </tr>
     </table>
 
+    <!-- Embedded map of Denver -->
     <h3>Denver Map</h3>
     <iframe
       title="Map showing Denver, Colorado"
@@ -83,9 +111,11 @@
     </iframe>
   </main>
 
+  <!-- Footer section -->
   <footer>
     <hr>
     <p>&copy; 2026 Amrit Samra</p>
   </footer>
+
 </body>
 </html>
